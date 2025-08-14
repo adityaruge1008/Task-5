@@ -1,0 +1,15 @@
+Findings and packet detail:
+1. TCP
+
+Usage: Connection-oriented communication (mostly HTTPS)
+       Source/Destination Ports: 443, 80, 22 (HTTPS, HTTP, SSH)
+
+2. DNS
+
+Usage: Domain name resolution (UDP/53, sometimes TCP/53)
+       Top Queried Domains: [e.g., google.com, cdn.cloudflare.net
+
+3. QUIC
+
+Usage: HTTP/3 over UDP (common in Chrome, YouTube, and other modern services)
+Port: Typically UDP/443.
